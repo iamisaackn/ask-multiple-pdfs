@@ -56,10 +56,47 @@ To use the MultiPDF Chat App, follow these steps:
 
 5. Ask questions in natural language about the loaded PDFs using the chat interface.
 
-## Contributing
-------------
-This repository is intended for educational purposes and does not accept further contributions. It serves as supporting material for a YouTube tutorial that demonstrates how to build this project. Feel free to utilize and enhance the app based on your own requirements.
+**This one is interesting — but be honest about it.**
 
-## License
--------
-The MultiPDF Chat App is released under the [MIT License](https://opensource.org/licenses/MIT).
+---
+
+### What it actually is
+
+This is a YouTube tutorial project (the README literally links to the tutorial video and says "does not accept contributions"). You followed along with someone else's code — LangChain, FAISS, OpenAI embeddings, Streamlit. You didn't architect this yourself.
+
+---
+
+### Should you keep it?
+
+**Keep it, but reframe it honestly and extend it.** Here's why it has value despite being tutorial-based — the stack is genuinely modern and impressive: Python, LangChain, vector embeddings, RAG architecture, Streamlit. That's real technology.
+
+The problem is every person who watched that YouTube video has the exact same repo.
+
+---
+
+### How to make it yours for BFSI
+
+Extend it in a way that shows domain thinking. Replace the generic PDF chat with something specific:
+
+**"BFSI Policy & Regulatory Document Analyser"**
+
+- Feed it actual CBK (Central Bank of Kenya) circulars, KRA tax guidelines, or Basel III documents
+- Add a prompt template that frames answers in compliance/risk context
+- Add a feature that flags which regulatory clause answered the question
+- Rename it: *"RegBot — Regulatory Document Q&A for BFSI Analysts"*
+
+That turns a tutorial clone into a portfolio-worthy domain tool.
+
+---
+
+### Updated scorecard
+
+| Project | Verdict |
+|---|---|
+| Tanzania Waterpoint ML | ✅ Keep |
+| Rental Management System | ✅ Keep |
+| Note-Taking App | ✅ Pivot |
+| MultiPDF Chat App | ✅ Extend with BFSI domain spin |
+| All HTML/CSS/JS (~20 projects) | 🗑️ Delete |
+
+**Four keepers now.** That's a solid portfolio. Stop auditing.
